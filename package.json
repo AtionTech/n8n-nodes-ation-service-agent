@@ -1,11 +1,16 @@
 {
   "name": "n8n-nodes-ation-service-agent",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Connector for Ation Service Agent",
   "license": "MIT",
   "homepage": "https://ation.it",
-  "keywords": ["n8n-community-node-package"],
-  "author": { "name": "Simone Fontana", "email": "simone.fontana@ation.it" },
+  "keywords": [
+    "n8n-community-node-package"
+  ],
+  "author": {
+    "name": "Simone Fontana",
+    "email": "simone.fontana@ation.it"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Ation-It/n8n-nodes-ation-service-agent.git"
@@ -19,11 +24,15 @@
     "release": "n8n-node release",
     "prepublishOnly": "n8n-node prerelease"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "n8n": {
     "n8nNodesApiVersion": 1,
     "strict": true,
-    "credentials": ["dist/credentials/AtionServiceAgentApi.credentials.js"],
+    "credentials": [
+      "dist/credentials/AtionServiceAgentApi.credentials.js"
+    ],
     "nodes": [
       "dist/nodes/AtionServiceAgent/AtionServiceAgent.node.js",
       "dist/nodes/AtionServiceAgent/AtionServiceAgentTrigger.node.js"
@@ -37,5 +46,7 @@
     "typescript": "5.9.2",
     "n8n-workflow": "^1.82.0"
   },
-  "peerDependencies": { "n8n-workflow": "*" }
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  }
 }
