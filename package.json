@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-ation-service-agent",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Connector for Ation Service Agent",
   "license": "MIT",
   "homepage": "https://ation.it",
