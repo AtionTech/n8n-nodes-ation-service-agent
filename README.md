@@ -58,3 +58,4 @@ The credential test issues a `GET /api/user/` request to verify the token.
 ## Version history
 
 - `0.1.0` – Initial public release with task operations and webhook trigger.
+
