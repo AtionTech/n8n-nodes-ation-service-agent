@@ -1,5 +1,5 @@
 {
-	"node": "n8n-nodes-ation-service-agent",
+	"node": "n8n-nodes-ation-sa",
 	"nodeVersion": "1.0",
 	"codexVersion": "1.0",
 	"categories": ["Development", "Developer Tools"],

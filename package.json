@@ -1,5 +1,5 @@
 {
-  "name": "n8n-nodes-ation-service-agent",
+  "name": "n8n-nodes-ation-sa",
   "version": "0.1.3",
   "description": "Connector for Ation Service Agent",
   "license": "MIT",
