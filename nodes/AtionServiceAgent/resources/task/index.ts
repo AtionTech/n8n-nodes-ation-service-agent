@@ -42,7 +42,7 @@ export const taskDescription: INodeProperties[] = [
 				routing: {
 					request: {
 						method: 'GET',
-						url: '=/reports/Ation-Report-{{$parameter["taskId"]}}.html',
+						url: '=/reports/Ation-Report-{{$parameter["taskId"]}}.json',
 					},
 				},
 			},
